@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/package/@superfluid-finance/widget + https://docs.superfluid.org
+components:
+- family: Checkout Widget
+  name: Superfluid Widget
+  kind: embeddable-checkout
+  loader: "@superfluid-finance/widget"
+  version: 0.5.1
+  npm: https://www.npmjs.com/package/@superfluid-finance/widget
+  description: 'Embeddable subscription/checkout widget that lets any dApp or website start receiving
+    ongoing real-time Superfluid payment streams. Configurable payment options (token, network,
+    flow rate) with a hosted-style UI mountable as a React component.'
+  official: true

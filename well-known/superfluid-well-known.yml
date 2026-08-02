@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: live probe of /.well-known/ on Superfluid hosts (2026-07-21)
+hosts:
+- host: https://superfluid.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://docs.superfluid.org
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://explorer.superfluid.finance
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+notes: 'No /.well-known/ discovery documents are published. superfluid.org and docs.superfluid.org
+  serve a Next.js SPA that returns a soft-404 HTML shell for unknown paths; explorer returns a hard
+  404. This is expected for a web3 protocol whose primary surface is on-chain contracts + a public
+  GraphQL subgraph rather than an authenticated REST API.'

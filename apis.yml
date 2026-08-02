@@ -1,8 +1,14 @@
 aid: superfluid
 name: Superfluid
-description: 'Superfluid is a company surfaced as a portfolio company of multicoin-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Superfluid is a money-streaming protocol for real-time, on-chain cashflows, enabling
+  continuous "payments by the second" to any wallet address across EVM networks. Built by Superfluid
+  Labs, the protocol powers salaries, subscriptions, rewards, airdrops, vesting, and incentive
+  distributions as programmable token streams and distribution pools. Developers integrate via
+  first-party TypeScript SDKs (@superfluid-finance/sdk-core, sdk-redux), the on-chain smart
+  contracts (@superfluid-finance/ethereum-contracts), an embeddable checkout Widget, and a public
+  GraphQL Subgraph API served through The Graph for querying streams, pools, accounts, and token
+  statistics. The protocol has streamed over $1.6B to 1.27M recipients across DeFi, SocialFi, and
+  gaming use cases.'
 url: https://raw.githubusercontent.com/api-evangelist/superfluid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +16,44 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Web3
-apis: []
+- Blockchain
+- DeFi
+- Payments
+- Money Streaming
+- Ethereum
+- GraphQL
+- Smart Contracts
+image: https://raw.githubusercontent.com/api-evangelist/superfluid/refs/heads/main/apis.yml
+apis:
+- name: Superfluid Subgraph API
+  description: 'Public GraphQL Subgraph API (served via The Graph) for querying Superfluid protocol
+    state — streams/flows, distribution pools, accounts, SuperTokens, token statistics, and events —
+    across supported EVM networks (Base, Optimism, Polygon, Ethereum, Arbitrum, and more). Read-only,
+    no authentication required.'
+  humanURL: https://docs.superfluid.org/docs/technical-reference/Subgraph
+  baseURL: https://subgraph-endpoints.superfluid.dev/base-mainnet/protocol-v1
+  properties:
+  - type: Documentation
+    url: https://docs.superfluid.org/docs/technical-reference/Subgraph
+  - type: GraphQL
+    url: https://subgraph-endpoints.superfluid.dev/base-mainnet/protocol-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,4 +61,41 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://superfluid.finance
+  url: https://www.superfluid.org
+- type: DeveloperPortal
+  url: https://docs.superfluid.org
+- type: Documentation
+  url: https://docs.superfluid.org
+- type: APIReference
+  url: https://docs.superfluid.org/docs/technical-reference/Architecture
+- type: GettingStarted
+  url: https://docs.superfluid.org/docs/sdk/quickstart
+- type: GitHubOrganization
+  url: https://github.com/superfluid-finance
+- type: Blog
+  url: https://superfluid.org/blog
+- type: Support
+  url: https://discord.gg/pPzPEDMVua
+- type: TermsOfService
+  url: https://superfluid.org/terms-of-use
+- type: PrivacyPolicy
+  url: https://superfluidorg.notion.site/Privacy-Policy-3574b6e22ae980b7ada5c70bab11719c
+- type: SDKs
+  url: packages/superfluid-packages.yml
+- type: Packages
+  url: packages/superfluid-packages.yml
+- type: Components
+  url: components/superfluid-components.yml
+- type: WellKnown
+  url: well-known/superfluid-well-known.yml
+- type: LLMsTxt
+  url: llms/superfluid-llms.txt
+- type: DomainSecurity
+  url: security/superfluid-domain-security.yml
+- type: Explorer
+  url: https://explorer.superfluid.org
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

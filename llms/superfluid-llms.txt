@@ -1,0 +1,36 @@
+# Superfluid
+
+> Superfluid is a money-streaming protocol for real-time, on-chain cashflows — continuous "payments by the second" to any wallet address across EVM networks. Built by Superfluid Labs, it powers salaries, subscriptions, rewards, airdrops, vesting, and incentive distributions as programmable token streams and distribution pools. The protocol has streamed over $1.6B to 1.27M recipients.
+
+Superfluid's developer surface is a web3 stack: first-party TypeScript SDKs, on-chain smart contracts, an embeddable checkout Widget, and a public read-only GraphQL Subgraph API (served via The Graph). There is no authenticated REST API; reads come from the subgraph and writes are on-chain transactions.
+
+## APIs
+
+- [Superfluid Subgraph API (GraphQL)](https://docs.superfluid.org/docs/technical-reference/Subgraph): Public GraphQL endpoint for querying streams/flows, distribution pools, accounts, SuperTokens, token statistics, and events across supported networks. Base mainnet endpoint: https://subgraph-endpoints.superfluid.dev/base-mainnet/protocol-v1
+
+## Docs
+
+- [Documentation Home](https://docs.superfluid.org): Full protocol, SDK, and technical reference documentation.
+- [Concepts](https://docs.superfluid.org/docs/concepts/superfluid): Core money-streaming and distribution-pool concepts.
+- [Smart Contracts Quick Start](https://docs.superfluid.org/docs/protocol/quickstart): Integrate the protocol via forwarder contracts.
+- [SDK Quick Start](https://docs.superfluid.org/docs/sdk/quickstart): Getting started with sdk-core.
+- [Technical Reference / Architecture](https://docs.superfluid.org/docs/technical-reference/Architecture): Contract architecture and reference.
+- [Governance](https://docs.superfluid.org/docs/governance): Protocol governance.
+
+## SDKs & Packages
+
+- [@superfluid-finance/sdk-core](https://www.npmjs.com/package/@superfluid-finance/sdk-core): TypeScript SDK for streams, pools, SuperTokens, and subgraph queries.
+- [@superfluid-finance/sdk-redux](https://www.npmjs.com/package/@superfluid-finance/sdk-redux): Redux front-end SDK.
+- [@superfluid-finance/ethereum-contracts](https://www.npmjs.com/package/@superfluid-finance/ethereum-contracts): Smart-contract interfaces.
+- [@superfluid-finance/metadata](https://www.npmjs.com/package/@superfluid-finance/metadata): Network deployment addresses.
+- [@superfluid-finance/tokenlist](https://www.npmjs.com/package/@superfluid-finance/tokenlist): SuperToken token list.
+- [@superfluid-finance/widget](https://www.npmjs.com/package/@superfluid-finance/widget): Embeddable checkout/subscription widget.
+
+## Resources
+
+- [GitHub Organization](https://github.com/superfluid-finance): Source for contracts, SDKs, explorer, and docs.
+- [Explorer](https://explorer.superfluid.org): Browse streams, pools, and accounts.
+- [Dashboard](https://app.superfluid.org): Manage streams and SuperTokens.
+- [Blog](https://superfluid.org/blog)
+- [Discord](https://discord.gg/pPzPEDMVua)
+- [Governance Forum](https://forum.superfluid.org)

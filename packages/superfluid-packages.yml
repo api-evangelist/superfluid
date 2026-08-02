@@ -1,0 +1,52 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org (@superfluid-finance scope) + https://github.com/superfluid-finance
+packages:
+- language: javascript
+  registry: npm
+  name: "@superfluid-finance/sdk-core"
+  version: 0.9.0
+  url: https://www.npmjs.com/package/@superfluid-finance/sdk-core
+  install: npm install @superfluid-finance/sdk-core
+  description: SDK Core for building with the Superfluid Protocol (streams, pools, SuperTokens, subgraph queries).
+  official: true
+- language: javascript
+  registry: npm
+  name: "@superfluid-finance/sdk-redux"
+  version: 0.7.0
+  url: https://www.npmjs.com/package/@superfluid-finance/sdk-redux
+  install: npm install @superfluid-finance/sdk-redux
+  description: SDK Redux for streamlined front-end application development with the Superfluid Protocol.
+  official: true
+- language: solidity
+  registry: npm
+  name: "@superfluid-finance/ethereum-contracts"
+  version: 1.15.2
+  url: https://www.npmjs.com/package/@superfluid-finance/ethereum-contracts
+  install: npm install @superfluid-finance/ethereum-contracts
+  description: Ethereum smart-contract implementation and interfaces for the Superfluid Protocol.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@superfluid-finance/metadata"
+  version: 1.6.3
+  url: https://www.npmjs.com/package/@superfluid-finance/metadata
+  install: npm install @superfluid-finance/metadata
+  description: Network-specific deployment addresses and metadata shared across Superfluid projects.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@superfluid-finance/tokenlist"
+  version: 5.44.0
+  url: https://www.npmjs.com/package/@superfluid-finance/tokenlist
+  install: npm install @superfluid-finance/tokenlist
+  description: Extended Uniswap-format token list of Superfluid SuperTokens across networks.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@superfluid-finance/widget"
+  version: 0.5.1
+  url: https://www.npmjs.com/package/@superfluid-finance/widget
+  install: npm install @superfluid-finance/widget
+  description: Embeddable checkout Widget for receiving ongoing real-time payments (subscriptions).
+  official: true
