@@ -51,6 +51,8 @@ tags:
 - Ethereum
 - GraphQL
 - Smart Contracts
+- Web3
+- Cryptocurrency
 image: https://raw.githubusercontent.com/api-evangelist/superfluid/refs/heads/main/apis.yml
 apis:
 - name: Superfluid Subgraph API
